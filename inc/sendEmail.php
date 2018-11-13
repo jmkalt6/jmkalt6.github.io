@@ -11,6 +11,7 @@ if($_POST) {
    $subject = trim(stripslashes($_POST['contactSubject']));
    $contact_message = trim(stripslashes($_POST['contactMessage']));
 
+   $error = false;
    // Check Name
 	if (strlen($name) < 2) {
 		$error['name'] = "Please enter your name.";
@@ -28,7 +29,7 @@ if($_POST) {
 
 
    // Set Message
-   $message .= "Email from: " . $name . "<br />";
+   $message = "Email from: " . $name . "<br />";
 	$message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
@@ -66,4 +67,3 @@ if($_POST) {
 
 }
 
-?>
