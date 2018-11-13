@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #3aa51d; }
 
 
 /* ------------------------------------------------------------------ */
@@ -856,7 +856,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #3aa51d;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -875,7 +875,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #3aa51d;
 	font-size: 13px;
 }
 #message-warning, #message-success {
