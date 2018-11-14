@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -109,7 +109,6 @@ header .scrolldown a {
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -117,7 +116,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #3aa51d; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -207,8 +206,8 @@ ul#nav li.current a { color: #3aa51d; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -242,7 +241,7 @@ ul#nav li.current a { color: #3aa51d; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #3aa51d; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +250,7 @@ ul#nav li.current a { color: #3aa51d; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #3aa51d;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -552,7 +551,7 @@ ul#nav li.current a { color: #3aa51d; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #3aa51d; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -795,21 +794,22 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #3aa51d; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
+    margin-top: 6px;
 }
-#contact h1 span { display: none; }
+/*#contact h1 span { display: none; }*/
 #contact h1:before {
-   font-family: 'FontAwesome';
+   font-family: 'FontAwesome',sans-serif;
    content: "\f0e0";
-	padding-right: 10px;
+    padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
    text-align: left;
@@ -954,7 +954,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #276314;
 }
 footer .copyright  li:first-child:before {
     display: none;
